@@ -23,10 +23,16 @@ This project is used by the following individual:
 
 For support, email `saifislam23122005@gmail.com` or join `facebook` community.(●'◡'●)
 
+## features
+- Automate dino game
+- Never going to die
+- Undetectable by friends
+
+
 
 ## Usage/Examples
 
-```python
+```javascript
 Do the follwing:
  1. Open the T-rex game using chrome://dino
  2. Open the inspect tool using f12
@@ -36,9 +42,5 @@ Do the follwing:
 
 
 
-
-- Automate dino game
-- Never going to die
-- Undetectable by friends
 
 
