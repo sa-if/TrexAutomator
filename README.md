@@ -32,7 +32,7 @@ For support, email `saifislam23122005@gmail.com` or join `facebook` community.(â
 
 ## Usage/Examples
 
-```javascript
+
 Do the follwing:
  1. Open the T-rex game using chrome://dino
  2. Open the inspect tool using f12
