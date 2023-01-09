@@ -16,7 +16,7 @@ This project is used by the following individual:
 
 - `Saif Islam`  
 - `Shahriar Siddique`
-- `Saimoon Islam`
+- `M.B. Saimoon`
 
 
 ## Support
