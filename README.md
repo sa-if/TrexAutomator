@@ -25,10 +25,10 @@ For support, email `saifislam23122005@gmail.com` or join `facebook` community.(â
 
 ## features
 
-```
-- Automate dino game
-- Never going to die
-- Undetectable by friends
+
+- `Automate dino game`
+- `Never going to die`
+- `Undetectable by friends`
 
 
 
