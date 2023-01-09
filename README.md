@@ -1,5 +1,5 @@
+<h1 align="center">T-rex automator.✌️👍</h1>
 
-`Java-Script T-rex automator.✌️👍`
 
 `It is a Java-Script based advanced T-rex automator for achieving unlimited score.🙂
 `
