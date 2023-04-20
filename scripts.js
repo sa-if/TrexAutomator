@@ -1,6 +1,5 @@
-Runner.instance_.gameOver=()=>{}
+Runner.instance_.gameOver=()=>{} // Don't end the game when the T-Rex crashes
 function keyDown(e) {
-    Podium = {};
     var n = document.createEvent("KeyboardEvent");
     Object.defineProperty(n, "keyCode", {
         get: function () {
@@ -12,7 +11,6 @@ function keyDown(e) {
         document.body.dispatchEvent(n);
 }
 function keyUp(e) {
-    Podium = {};
     var n = document.createEvent("KeyboardEvent");
     Object.defineProperty(n, "keyCode", {
         get: function () {
@@ -26,5 +24,5 @@ function keyUp(e) {
 setInterval(function () {
     Runner.instance_.horizon.obstacles.length > 0 &&
         (Runner.instance_.horizon.obstacles[0].xPos < 25 * Runner.instance_.currentSpeed - Runner.instance_.horizon.obstacles[0].width / 2 && Runner.instance_.horizon.obstacles[0].yPos > 75 && (keyUp(40), keyDown(38)),
-        Runner.instance_.horizon.obstacles[0].xPos < 30 * Runner.instance_.currentSpeed - Runner.instance_.horizon.obstacles[0].width / 2 && Runner.instance_.horizon.obstacles[0].yPos <= 75 && keyDown(40));
+        Runner.instance_.horizon.obstacles[0].xPos < 30 * Runner.instance_.currentSpeed - Runner.instance_.horizon.obstacles[0].width / 2 && Runner.instance_.horizon.obstacles[0].yPos <= 75 && (keyUp(40), keyDown(40)));
 }, 5);
