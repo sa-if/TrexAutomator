@@ -1,4 +1,4 @@
-Runner.instance_.gameOver=()=>{} // Don't end the game when the T-Rex crashes
+Runner.instance_.gameOver=()=>{} 
 function keyDown(e) {
     var n = document.createEvent("KeyboardEvent");
     Object.defineProperty(n, "keyCode", {
